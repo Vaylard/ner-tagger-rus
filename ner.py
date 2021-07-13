@@ -83,7 +83,7 @@ print('Tokens (test):', sum(len(s) for s in corpus_test_s))
 from gensim.models import KeyedVectors
 
 # 3rd party embeddings trained on the entire text of Russian wikipedia
-full_wiki_embs = KeyedVectors.load('./embeddings/ruwiki_300d.keyedvectors')
+full_wiki_embs = KeyedVectors.load_word2vec_format('./embeddings/ruwiki_20180420_300d.txt', binary=False)
 
 # "home-made" embeddings trained on a single category
 part_wiki_embs = KeyedVectors.load('./embeddings/partial_wiki_100d.keyedvectors')
