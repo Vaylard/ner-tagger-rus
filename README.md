@@ -1,9 +1,8 @@
 # ner-tagger-rus
 
 ### Launching the scripts
-The scripts must be run in the following order:
-1. `wiki_word2vec.py` (generate `embeddings/partial_wiki_100d.keyedvectors`)
-2. `ner.py` (train the NER model)
+1. `python wiki_word2vec.py` (generate `embeddings/partial_wiki_100d.keyedvectors`)
+2. `python ner.py` (train the NER model)
 
 In order to run, the scripts require the following directories and files:
 
