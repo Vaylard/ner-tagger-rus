@@ -5,7 +5,7 @@ The scripts must be run in the following order:
 1. `wiki_word2vec.py` (generate `embeddings/partial_wiki_100d.keyedvectors`)
 2. `ner.py` (train the NER model)
 
-In order to run, the scripts requires the following directories and files:
+In order to run, the scripts require the following directories and files:
 
 `wiki_word2vec.py`:
 - `embeddings/`
