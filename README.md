@@ -16,6 +16,8 @@ In order to run, the scripts require the following directories and files:
 Available at: https://github.com/dialogue-evaluation/factRuEval-2016
 - `embeddings/ruwiki_20180420_300d.txt` \
 Available at: https://wikipedia2vec.github.io/wikipedia2vec/pretrained/
+- `embeddings/partial_wiki_100d.keyedvectors` \
+Generated with `python wiki_word2vec.py`
 
 ### Dependencies
 Recommended Python version: `3.7.10`
